@@ -410,7 +410,7 @@ body {
 .portfolio-image img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  object-fit: fill;
   display: block;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -765,6 +765,9 @@ button[type='submit']:hover {
 }
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+  br {
+    display: none;
+  }
   body {
     font-size: 0.95rem;
     padding-top: 15px;
@@ -854,11 +857,14 @@ button[type='submit']:hover {
 
   .portfolio-left h2 {
     font-size: 28px;
+    text-align: center;
   }
 
   .see-all {
-    padding: 8px 20px;
-    font-size: 13px;
+    padding: 8px 40px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto;
   }
 
   .contact-section {
@@ -918,5 +924,21 @@ button[type='submit']:hover {
   }
   .contact-section {
     background: linear-gradient(50deg, #a18cd1 10%, #fbc2eb 90%);
+  }
+  .contact-icons a {
+    font-size: 1rem;
+  }
+  .contact-icons a {
+    padding: 5px 10px;
+  }
+  .certification-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(161, 140, 209, 0.07);
+    transition: all 0.3s ease;
+    position: relative;
+    border-top: 4px solid var(--accent);
+    border-left: none;
   }
 }
