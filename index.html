@@ -8,16 +8,27 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="logo"><img src="images/Nisha-logo.png" alt="logo" /></div>
-      <button class="call-btn">Book a call</button>
-    </header>
+    <!----Header-Section-->
+   <header class="topbar" data-aos="fade-down">
+  <div class="logo">
+    <img src="images/nisha-logo-2.png" alt="logo">
+  </div>
+  <button class="call-btn">
+    <i class="fas fa-phone-alt"></i> Book a call
+  </button>
+   </header>
 
-    <section class="hero">
+
+    <!-- hero----section-->
+    <section class="hero" data-aos="fade-up">
       <div class="left">
         <span class="available">AVAILABLE FOR WORK</span>
         <h1>
@@ -28,168 +39,232 @@
           content that drives results. With 7+ years of proven SEO expertise, I
           build full content ecosystems, not just blogs.
         </p>
-        <button class="contact-btn">Download CV</button>
+        <a href="Nisha-Batel-CV.pdf" download>
+  <button class="contact-btn">Download CV</button>
+</a>
+
       </div>
 
       <div class="right">
         <div class="profile-card">
-          <h3>Nisha Batel</h3>
-          <p>Panchkula, India</p>
-          <img src="images/girl.png" alt="portfolio" />
-        </div>
-
-        <div class="brands">
-          <p>The most recent brands<br />I happily worked with <3</p>
-          <div class="logos">
-            <span>SQUARESPACE</span>
-            <span>asana</span>
-            <span>atten</span>
-          </div>
-        </div>
-
-        <div class="social-icons">
-          <a href="#">🔗</a>
-          <a href="#">💼</a>
-          <a href="#">🎯</a>
-          <a href="#">📌</a>
-          <a href="#">🅱️</a>
-          <a href="#">❌</a>
-        </div>
-      </div>
+  <img src="images/profile-img.jpg" alt="portfolio">
+  <h3>Nisha Batel</h3>
+  <p>Panchkula, India</p>
+</div>
     </section>
-    <section class="mission-section">
+
+    <!-- About----section-->
+    <section class="mission-section" data-aos="fade-right">
       <div class="mission-box">
         <p class="mission-text">
-          Hi, I’m Nisha, a Content & SEO Strategist with 7+ years of experience helping brands grow through high-impact content. I specialize in building full content ecosystems—covering keyword strategy, website architecture, SEO blogs, case studies, and LinkedIn storytelling. My work spans SaaS, D2C, iGaming, affiliate, and hospitality brands, always aligning content with user intent and business goals. Skilled in tools like Ahrefs, SEMrush, GA4, and GenRank, I focus on measurable outcomes—traffic, trust, and conversions. Currently, I’m leading strategies in LLM SEO and AI-driven visibility.
+          Hi, I’m Nisha, a Content & SEO Strategist with 7+ years of experience
+          helping brands grow through high-impact content. I specialize in
+          building full content ecosystems—covering keyword strategy, website
+          architecture, SEO blogs, case studies, and LinkedIn storytelling. My
+          work spans SaaS, D2C, iGaming, affiliate, and hospitality brands,
+          always aligning content with user intent and business goals. Skilled
+          in tools like Ahrefs, SEMrush, GA4, and GenRank, I focus on measurable
+          outcomes—traffic, trust, and conversions. Currently, I’m leading
+          strategies in LLM SEO and AI-driven visibility.
         </p>
       </div>
     </section>
-    <section class="services-section">
-      <div class="services-container">
-        <div class="services-heading">
-          <h2>How Can I<br />Help Your Brand Grow</h2>
+
+    <!-- Services---section-->
+    <section class="services-section" data-aos="zoom-in">
+  <div class="services-container">
+    <div class="services-heading">
+      <h2>Let’s Grow Your Brand 🚀</h2>
+      <p>Strategic SEO, content, and messaging that builds trust and drives conversions — with speed, clarity, and structure.</p>
+    </div>
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card">
+        <div class="service-header-part">
+          <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+          <p class="service-desc">SEO Blog Writing & Strategy</p>
         </div>
-        <div class="services-grid">
-          <!-- Card 1 -->
-          <div class="service-card">
-            <div class="service-icon">🎨</div>
-            <p class="service-desc">SEO Blog Writing & Content Strategy</p>
-            <div class="service-footer">
-              <h3>
-                I create keyword-rich, search-optimized blogs and content
-                frameworks aligned with business goals, designed to drive
-                traffic, engagement, and long-term visibility.
-              </h3>
-              <span>Blog writing</span>
-              <span>Editorial calendars</span>
-              <span>Topical mapping & keyword clusters</span>
-              <span>Competitor gap analysis</span>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="service-card">
-            <div class="service-icon">💻</div>
-            <p class="service-desc">Case Studies, Use Cases & Web Copy</p>
-            <div class="service-footer">
-              <h3>
-                I craft conversion-driven case studies, use cases, and website
-                copy that build trust, showcase product impact, and support your
-                GTM strategy.
-              </h3>
-              <span>Customer case studies</span>
-              <span>Product use cases</span>
-              <span>Landing page copy</span>
-              <span>Feature highlights & comparison pages</span>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="service-card">
-            <div class="service-icon">🖌️</div>
-            <p class="service-desc">Website Structure & On-Page SEO</p>
-            <div class="service-footer">
-              <h3>
-                I plan and optimize SEO-friendly site architecture and metadata
-                to improve crawlability, UX, and search rankings for both new
-                and mature websites.
-              </h3>
-              <span>Technical SEO audits</span>
-              <span>Metadata & schema optimization</span>
-              <span>Internal linking strategy</span>
-              <span>Content architecture and UX-focused structure</span>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="service-card">
-            <div class="service-icon">📢</div>
-            <p class="service-desc">
-              We craft memorable brand identities, from logos to complete
-              strategies...
-            </p>
-            <div class="service-footer">
-              <h3>Branding</h3>
-              <span>04</span>
-            </div>
+        <div class="service-footer">
+          <p>
+            Keyword-rich, search-optimized content frameworks aligned with your business goals — crafted to drive real growth.
+          </p>
+          <div class="service-tags">
+            <span>Blog writing</span>
+            <span>Editorial calendars</span>
+            <span>Keyword clusters</span>
+            <span>Competitor gap analysis</span>
           </div>
         </div>
       </div>
-    </section>
-    <section class="portfolio-section">
-      <div class="portfolio-container">
-        <div class="portfolio-heading">
-          <h2>My<br />work</h2>
-          <button class="see-all">See All</button>
-        </div>
-        <div class="portfolio-grid">
-          <!-- Project 1 -->
-          <div class="portfolio-card">
-            <img
-              src="https://via.placeholder.com/500x300"
-              alt="Zenpoint project"
-            />
-            <div class="portfolio-info">
-              <h4>Discover Our Inspiring Mission</h4>
-              <div class="portfolio-meta">
-                <span>ZENPOINT</span>
-                <span>2024</span>
-              </div>
-              <div class="portfolio-tags">
-                <span class="tag">UI DESIGN</span>
-                <span class="tag">WEB DEV</span>
-              </div>
-            </div>
-          </div>
 
-          <!-- Project 2 -->
-          <div class="portfolio-card">
-            <img src="https://via.placeholder.com/500x300" alt="Payu project" />
-            <div class="portfolio-info">
-              <h4>Premium carbon free...</h4>
-              <div class="portfolio-meta">
-                <span>PAYU</span>
-                <span>2024</span>
-              </div>
-              <div class="portfolio-tags">
-                <span class="tag">UI DESIGN</span>
-                <span class="tag">WEB DEV</span>
-              </div>
-            </div>
+      <!-- Card 2 -->
+      <div class="service-card">
+        <div class="service-header-part">
+          <div class="service-icon"><i class="fas fa-book-open"></i></div>
+          <p class="service-desc">Case Studies & Website Copy</p>
+        </div>
+        <div class="service-footer">
+          <p>
+            Conversion-driven content that builds trust, highlights product value, and supports your GTM strategy.
+          </p>
+          <div class="service-tags">
+            <span>Case studies</span>
+            <span>Use cases</span>
+            <span>Landing pages</span>
+            <span>Feature comparisons</span>
           </div>
         </div>
       </div>
-    </section>
+
+      <!-- Card 3 -->
+      <div class="service-card">
+        <div class="service-header-part">
+          <div class="service-icon"><i class="fas fa-sitemap"></i></div>
+          <p class="service-desc">On-Page SEO & Site Structure</p>
+        </div>
+        <div class="service-footer">
+          <p>
+            SEO-friendly architecture and metadata that improve UX, crawlability, and visibility for both new and mature sites.
+          </p>
+          <div class="service-tags">
+            <span>Technical SEO</span>
+            <span>Metadata & schema</span>
+            <span>Internal linking</span>
+            <span>UX-driven architecture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- WORK--- section-->
+   <section class="portfolio-section" data-aos="fade-up">
+  <div class="portfolio-container">
+    <div class="portfolio-left">
+      <h2>Selected<br />Work</h2>
+      <button class="see-all">See All</button>
+    </div>
+
+    <div class="portfolio-cards">
+      <!-- Card 1 -->
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="images/work1.png" alt="Tabla Restaurant SEO Content" />
+        </div>
+        <div class="portfolio-description">
+          <h3>Stealth Management Group – Tabla Restaurant SEO Content</h3>
+          <p>
+            Planned content architecture and wrote optimized copy for a growing Indian restaurant chain in Orlando, improving discoverability, UX, and direct reservations.
+          </p>
+          <div class="portfolio-meta">
+            <span>ZMG</span>
+            <span>2024</span>
+          </div>
+          <div class="portfolio-tags">
+            <span>Hospitality</span>
+            <span>Content Strategy</span>
+            <span>Local SEO</span>
+          </div>
+          <a href="#" class="portfolio-link">View Case Study</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="images/work2.png" alt="Retail SaaS GTM Content" />
+        </div>
+        <div class="portfolio-description">
+          <h3>Supplymint – Retail SaaS GTM Content</h3>
+          <p>
+            Developed full-stack content strategy for a retail SaaS startup across three product launches, helping shape positioning and drive go-to-market success.
+          </p>
+          <div class="portfolio-meta">
+            <span>SUPPLYMINT</span>
+            <span>2024</span>
+          </div>
+          <div class="portfolio-tags">
+            <span>SaaS</span>
+            <span>Case Studies</span>
+            <span>SEO Blogging</span>
+          </div>
+          <a href="#" class="portfolio-link">View Case Study</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+   <div class="portfolio-card">
+  <div class="portfolio-image">
+    <img src="images/work3.png" alt="iGaming SEO & Affiliate Content" />
+  </div>
+  <div class="portfolio-description">
+    <h3>Paradise Media – iGaming SEO & Affiliate Content</h3>
+    <p>
+      Led SEO strategy and content ops for a global iGaming network, delivering
+      multilingual blogs and affiliate campaigns across competitive niches.
+    </p>
+    <div class="portfolio-meta">
+      <span>PARADISE MEDIA</span>
+      <span>2024</span>
+    </div>
+    <div class="portfolio-tags">
+      <span>iGaming</span>
+      <span>Affiliate SEO</span>
+      <span>Guest Posting</span>
+      <span>Multilingual</span>
+      <span>Technical SEO</span>
+    </div>
+    <a href="#" class="portfolio-link">
+      View Case Study <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+</div>
+
+
+      <!-- Card 4 -->
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="images/work4.png" alt="Multi-Niche Content Strategy" />
+        </div>
+        <div class="portfolio-description">
+          <h3>Webcazador – Multi-Niche Content Strategy</h3>
+          <p>
+            Executed SEO content across industries like legal, IT, dental, and travel with tailored strategies for blogs, landing pages, and social copy.
+          </p>
+          <div class="portfolio-meta">
+            <span>WEBCAZADOR</span>
+            <span>2024</span>
+          </div>
+          <div class="portfolio-tags">
+            <span>Blog Writing</span>
+            <span>Local SEO</span>
+            <span>Social Copy</span>
+            <span>Content Strategy</span>
+          </div>
+          <a href="#" class="portfolio-link">View Case Study</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     <!-- Toolkit & Certification Section -->
-    <section class="toolkit-section">
-      <div class="container">
-        <h2 class="section-title">My Toolkit</h2>
-        <p class="section-subtitle">
-          Professional-grade tools and platforms I use to deliver exceptional
-          content and SEO results.
-        </p>
+    <section class="toolkit-section" data-aos="fade-up">
+      <div class="toolkit-main-part">
+      <div class="toolkit-container">
+        <div class="toolkit-header">
+          <h2>My Toolkit</h2>
+          <p>
+            Professional-grade tools and platforms I use to deliver exceptional
+            content and SEO results.
+          </p>
+        </div>
 
         <div class="toolkit-grid">
+          <!-- Card 1 -->
           <div class="toolkit-card">
             <h3>SEO & Analytics Tools</h3>
             <p>
@@ -197,10 +272,14 @@
               · GenRank
             </p>
           </div>
+
+          <!-- Card 2 -->
           <div class="toolkit-card">
             <h3>Workflow & Project Management</h3>
             <p>Notion · ClickUp · Slack · Google Workspace</p>
           </div>
+
+          <!-- Card 3 -->
           <div class="toolkit-card">
             <h3>Content & Design Tools</h3>
             <p>
@@ -209,7 +288,7 @@
           </div>
         </div>
 
-        <div class="certification">
+        <div class="certification-card">
           <h3>LLM SEO, GEO & AEO Certification</h3>
           <p>
             <strong
@@ -223,32 +302,71 @@
           </p>
         </div>
       </div>
-    </section>
-
-    <section class="contact-section">
-      <div class="contact-container">
-        <h2>
-          Let’s talk about how I can help your brand grow smarter and rank
-          higher.
-        </h2>
-        <p>
-          Whether you need help with SEO strategy, content that converts, or a
-          complete site revamp, I’d love to chat.
-        </p>
-
-        <form class="contact-form">
-          <div class="input-row">
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-          </div>
-          <textarea
-            placeholder="Work Description..."
-            rows="5"
-            required
-          ></textarea>
-          <button type="submit">Submit</button>
-        </form>
       </div>
     </section>
+
+    <!-- Contact -->
+  <section class="contact-section" data-aos="fade-up">
+  <div class="contact-container">
+    <div class="contact-grid">
+      <!-- Text + Info -->
+      <div class="contact-info">
+        <h2>Let’s Create Content That Converts 🚀</h2>
+        <p>
+          Want content that ranks, resonates, and drives real results? Whether it’s strategy, SEO blogs, or a full content ecosystem — I’m ready to help.
+        </p>
+        <ul class="contact-bullets">
+          <li>✔️ Free intro call to align on your goals</li>
+          <li>✔️ No fluff — just real, measurable SEO</li>
+          <li>✔️ Quick turnaround, strategic clarity</li>
+        </ul>
+        <div class="contact-icons">
+          <a href="mailto:nisha.writecontent@gmail.com" title="Email Me">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nishabatel/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="tel:+919876543210" title="Call Me">
+  <i class="fas fa-phone-alt"></i>
+</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="https://formsubmit.co/nisha.writecontent@gmail.com" method="POST">
+        <div class="input-row">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+
+        <!-- Hidden Inputs -->
+        <input type="hidden" name="_subject" value="New Contact from Portfolio Website!" />
+        <input type="hidden" name="_template" value="box" />
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- Optional redirect after submission -->
+        <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html" /> -->
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 Nisha Batel. All rights reserved.</p>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+  <!-- ✅ Correct place to load your custom JS -->
+  <script src="script.js"></script>
   </body>
 </html>
