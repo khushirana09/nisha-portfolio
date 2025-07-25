@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #fafafa;
+    color: #222;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    font-weight: bold;
+    color: #222;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.topbar nav a {
+    margin-left: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.topbar nav a:hover {
+    color: #4c6ef5;
+}
+
+.case-study-section h1 {
+    font-size: 2.4rem;
+    color: #4c6ef5;
+    margin-bottom: 20px;
+}
+
+.meta-box p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+}
+
+.meta-box a {
+    color: #4c6ef5;
+    text-decoration: none;
+}
+
+.case-section {
+    margin-top: 50px;
+}
+
+.case-section h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.case-section h3 {
+    font-size: 1.1rem;
+    margin-top: 24px;
+    color: #4c6ef5;
+}
+
+.case-section ul {
+    padding-left: 20px;
+}
+
+.case-section ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.results {
+    background: #f0f4ff;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.links ul li {
+    margin-bottom: 8px;
+}
+
+.links a {
+    color: #4c6ef5;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #eee;
+}
